@@ -1,0 +1,171 @@
+site_name: Nagwa Documentation
+nav:
+  -  Nagwa Documentation: index.md
+
+  - Nagwa Sessions:
+    - nagwa_sessions/index.md 
+    - Key Featuers: nagwa_sessions/key_features.md
+    - Authentication:
+      - Authentication: nagwa_sessions/authentication/index.md
+      - Technical Components:
+        - Login (Validating Username): nagwa_sessions/authentication/auth_technicalComponents/login_validatingUsername.md
+        - Setting Password (1st Time): nagwa_sessions/authentication/auth_technicalComponents/settingPassword_firstTime.md
+        - Login (Validating Password): nagwa_sessions/authentication/auth_technicalComponents/validatingPassword.md 
+        - Saving User Data Process: nagwa_sessions/authentication/auth_technicalComponents/savingUserDataProcess.md
+        - Getting Stored Users Locally: nagwa_sessions/authentication/auth_technicalComponents/getSavedUsersLocally.md
+        - Saving User Data Locally: nagwa_sessions/authentication/auth_technicalComponents/savingUserDataLocally.md
+    - Pre-Knowledge Required:
+        - nagwa_sessions/pre_knowledge_required/index.md
+        - HTML Rendering Engine: 
+          - nagwa_sessions/pre_knowledge_required/html_renderingEngine.md
+          - Additional Engine Info: nagwa_sessions/pre_knowledge_required/js_html_renderingEngine.md
+  - Sabboura:
+    - sabboura/index.md
+     
+
+  -  Blog:
+      - blog/index.md
+ 
+ 
+
+
+theme:
+
+
+  # Language of the documentation (en: English)
+  language: en
+  # Name of the theme that we are using (material: https://github.com/squidfunk/mkdocs-material)
+  name: material
+  # Name of the font that we use (Roboto: https://fonts.google.com/specimen/Roboto)   
+  font:
+    text: Poppins
+    # Name of the font for Code Blocks (Roboto Mono: https://fonts.google.com/specimen/Roboto+Mono)
+    code: Roboto Mono
+  # Website Logo (Image in the Header) , I have used the image located on nagwa.com
+  logo: assets/logo.png
+  # Website Favicon (Image in the browser tab) , I have used the image located on nagwa.com
+  favicon: assets/images/favicon.png
+  # Colors of the theme (Dark Mode) 
+  palette:
+
+  # Palette toggle for light mode
+  - scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+
+  # Palette toggle for dark mode
+  - scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+
+
+
+
+
+
+
+
+
+  features:
+
+  # [navigation.tabs ]When tabs are enabled, top-level sections are rendered in a menu layer below 
+  # the header for viewports above 1220px, but remain as-is on mobile devices.
+  - navigation.tabs
+  # ------------------Navigation------------------ #
+  - navigation.tabs.sticky
+  #[navigation.tabs.sticky] navigation tabs will lock below the header and always remain visible when scrolling down 
+  - navigation.sections
+  # When [navigation.sections] are enabled, top-level sections are rendered as groups in the sidebar for viewports above 1220px
+  # so the user doesn't have to open subsections manually 
+  - navigation.expand
+  # When expansion is enabled, the left sidebar will expand all collapsible subsections by default, 
+  # which might make orientation easier for users visiting your documentation on devices with smaller screen
+  - navigation.path
+  # When navigation paths are activated, a breadcrumb navigation is rendered above the title of each page,
+  #reducing the size of the built site by 33% or more
+  - navigation.prune
+  #When pruning is enabled, only the visible navigation items are included in the rendered HTML,
+  # which is particularly useful for providing overview pages
+  - navigation.indexes
+  # When section index pages are enabled, documents can be directly attached to sections,
+  # so that the active anchor is always visible
+  - toc.follow
+  # When anchor following for the table of contents is enabled, the sidebar is automatically scrolled 
+  #It's rendered centered and just below the header
+  - navigation.top
+  # A back-to-top button can be shown when the user, after scrolling down, starts to scroll up again.
+  - search.suggest
+  - search.highlight
+  - search.share
+
+  - navigation.tracking
+
+  # ------------------Footer------------------ #
+  - navigation.footer
+  - content.action.edit
+
+  # ------------------Code Copying------------------ #
+  - content.code.copy
+# ------------------Code Annotating------------------ #
+  - content.code.annotation
+
+#------------------Markdown Extensions------------------ #
+markdown_extensions:
+# Admonitions, also known as call-outs, are an excellent choice for including side content without 
+# significantly interrupting the document flow. 
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+#Annotation Related Extensions
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true 
+# Code Highliting
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+# Tooltips
+  - abbr
+
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+# Add tables support
+  - tables
+
+# ------------------Plugins------------------ #
+
+plugins:
+- blog
+# ------------------Search------------------ #
+# When search is enabled, a search box is rendered in the header, which allows users to search the documentation
+
+- search
+- git-revision-date-localized:
+    
+      type: timeago
+      timezone: Africa/Cairo
+      locale: en
+      fallback_to_build_date: false
+      enable_creation_date: true
+      # For enabling image zooming    
+- glightbox
+
+copyright: Copyright &copy; 2023 - Nagwa Technologies
+extra:
+  generator: false
+
+
+
+repo_url: https://github.com/khaled-ahmed-nagwa/testingmkdoc
+edit_uri: edit/main/docs/
+repo_name: khaled-ahmed-nagwa/testingmkdoc

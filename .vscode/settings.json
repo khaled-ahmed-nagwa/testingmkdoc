@@ -1,0 +1,10 @@
+{
+    "grammarly.config.suggestions.UnnecessaryEllipses": true,
+    "grammarly.config.suggestions.StylisticFragments": true,
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file"
+        }
+    ]
+}
