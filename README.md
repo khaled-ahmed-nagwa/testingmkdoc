@@ -1,3 +1,2 @@
 # Nagwa Documentation
 
-## Beta
