@@ -1,7 +1,4 @@
-# Nagwa Documentation [:material-information-outline:{ title="Important information" }]( "I'm a tooltip!")
-
- 
-Hello 🙋‍♂️ Thanks For Being Here 😀, There's Nothing Right Now, Just Testing Mkdocs Capabilities ⛷️
+# Nagwa Documentation [:material-information-outline:{ title="In Progress" }]( "I'm a tooltip!")
 
 
 !!! warning
