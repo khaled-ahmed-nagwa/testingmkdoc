@@ -30,12 +30,12 @@ nav:
           - Agora Details: nagwa_sessions/pre_knowledge_required/agoraDetails.md
     - Session Feature:
       - nagwa_sessions/session/index.md
-      - Calculating Dimensions: nagwa_sessions/session/calculatingDimensions.md
       - Technical Components:
           - nagwa_sessions/session/session_technical/index.md
           - Upcoming and Running Sessions List: nagwa_sessions/session/session_technical/sessionsList.md
           - Starting Session: nagwa_sessions/session/session_technical/startingSession.md
           - Joining Session: nagwa_sessions/session/session_technical/joinSession.md
+          - Calculating Dimensions: nagwa_sessions/session/calculatingDimensions.md
 
 
   - Sabboura:
