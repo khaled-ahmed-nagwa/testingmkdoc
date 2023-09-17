@@ -25,7 +25,19 @@ nav:
         - Session Material: 
             - nagwa_sessions/pre_knowledge_required/sessionMaterial.md
             - Material Fetching Process: nagwa_sessions/pre_knowledge_required/materialFetchingProcess.md
- 
+        - Agora Handling:
+          - nagwa_sessions/pre_knowledge_required/handlingAgora.md
+          - Agora Details: nagwa_sessions/pre_knowledge_required/agoraDetails.md
+    - Session Feature:
+      - nagwa_sessions/session/index.md
+      - Calculating Dimensions: nagwa_sessions/session/calculatingDimensions.md
+      - Technical Components:
+          - nagwa_sessions/session/session_technical/index.md
+          - Sessions List: nagwa_sessions/session/session_technical/sessionsList.md
+
+
+
+
   - Sabboura:
     - sabboura/index.md
      
