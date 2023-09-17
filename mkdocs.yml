@@ -22,7 +22,10 @@ nav:
           - Fetching Engine Process: nagwa_sessions/pre_knowledge_required/fetching_engine.md
         - MD5 Usage: nagwa_sessions/pre_knowledge_required/md5_intro.md
         - Package Manager Helper: nagwa_sessions/pre_knowledge_required/packageMangerHelper.md
-
+        - Session Material: 
+            - nagwa_sessions/pre_knowledge_required/sessionMaterial.md
+            - Material Fetching Process: nagwa_sessions/pre_knowledge_required/materialFetchingProcess.md
+ 
   - Sabboura:
     - sabboura/index.md
      
