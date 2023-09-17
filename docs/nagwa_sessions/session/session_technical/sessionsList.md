@@ -1,14 +1,16 @@
 # Upcoming and Running Sessions List
-The educator has access to a centralized location where he can view a list of currently running and upcoming sessions. This list provides essential details such as the session name, date, and duration for each session.
 
+The educator has access to a centralized location where he can view a list of currently running and upcoming sessions. This list provides essential details such as the session name, date, and duration for each session.
 
 ??? abstract "Currently Running & Upcoming Sessions List Screen"
     <iframe frameborder="0" style="width:100%;height:342px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1uQN6ZUYZMBDspYHS8elasCcCgDmzMSMf"></iframe>
 
-# Flowchart
+# Retrive Sessions List Flowchart
 
 ??? abstract "Getting Session’s List Flowchart"
     <iframe frameborder="0" style="width:100%;height:704px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G11m2W8uisabI7b9aShj4No0Z9qsAsdtJF"></iframe>
+
+The `getSessions` function plays a crucial role in fetching a list of sessions that the student had registered for from our API `sessions/open`. This function communicates with the API and retrieves the necessary data about the sessions associated with the student's account. Once the data is obtained, it can be used to populate the centralized view, showing the educator all the relevant details.
 
 <div style="text-align: center;">
     <table width="100%" style="max-width: 600px; margin: 0 auto; border-collapse: collapse;">
@@ -45,8 +47,6 @@ The educator has access to a centralized location where he can view a list of cu
 </table>
 </div>
 
-The `getSessions` function plays a crucial role in fetching a list of sessions that the student had registered for from our API `sessions/open`. This function communicates with the API and retrieves the necessary data about the sessions associated with the student's account. Once the data is obtained, it can be used to populate the centralized view, showing the educator all the relevant details.
-
 ## Fetch Sessions List API
 
 <div style="text-align: center;">
@@ -75,7 +75,6 @@ The `getSessions` function plays a crucial role in fetching a list of sessions t
         </tr>
     </table>
 </div>
-
 
 ### Fetch Session List API Response
 

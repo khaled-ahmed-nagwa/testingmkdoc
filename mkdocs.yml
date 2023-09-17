@@ -33,9 +33,9 @@ nav:
       - Calculating Dimensions: nagwa_sessions/session/calculatingDimensions.md
       - Technical Components:
           - nagwa_sessions/session/session_technical/index.md
-          - Sessions List: nagwa_sessions/session/session_technical/sessionsList.md
-
-
+          - Upcoming and Running Sessions List: nagwa_sessions/session/session_technical/sessionsList.md
+          - Starting Session: nagwa_sessions/session/session_technical/startingSession.md
+          - Joining Session: nagwa_sessions/session/session_technical/joinSession.md
 
 
   - Sabboura:
