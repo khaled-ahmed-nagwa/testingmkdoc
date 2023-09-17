@@ -20,6 +20,9 @@ nav:
           - nagwa_sessions/pre_knowledge_required/html_renderingEngine.md
           - Additional Engine Info: nagwa_sessions/pre_knowledge_required/js_html_renderingEngine.md
           - Fetching Engine Process: nagwa_sessions/pre_knowledge_required/fetching_engine.md
+        - MD5 Usage: nagwa_sessions/pre_knowledge_required/md5_intro.md
+
+
   - Sabboura:
     - sabboura/index.md
      
