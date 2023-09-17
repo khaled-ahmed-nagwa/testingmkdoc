@@ -21,7 +21,7 @@ nav:
           - Additional Engine Info: nagwa_sessions/pre_knowledge_required/js_html_renderingEngine.md
           - Fetching Engine Process: nagwa_sessions/pre_knowledge_required/fetching_engine.md
         - MD5 Usage: nagwa_sessions/pre_knowledge_required/md5_intro.md
-
+        - Package Manager Helper: nagwa_sessions/pre_knowledge_required/packageMangerHelper.md
 
   - Sabboura:
     - sabboura/index.md
