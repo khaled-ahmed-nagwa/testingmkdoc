@@ -62,7 +62,7 @@ To manage the messages and actions, we have two channels
     </tr>
     <tr>
         <td style="width: 20%; text-align: left;">15</td>
-        <td style="width: 80%; text-align: left;">Indicates that the student has an active account and is currently running the session on another device.</td>
+        <td style="width: 80%; text-align: left;">Indicates that the educator has an active account and is currently running the session on another device.</td>
     </tr>
 </table>
 
