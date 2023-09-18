@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../startingSession/">
+        <link rel="prev" href="../endSession/">
       
       
-        <link rel="next" href="../cancelSession/">
+        <link rel="next" href="../agoraRTCHandling/">
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Joining Session - Nagwa Documentation</title>
+        <title>Agora Signling - Nagwa Documentation</title>
       
     
     
@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#session-joining" class="md-skip">
+        <a href="#agora-singling-handling-rtm" class="md-skip">
           Skip to content
         </a>
       
@@ -123,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Joining Session
+              Agora Signling
             
           </span>
         </div>
@@ -993,29 +993,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Joining Session
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../joinSession/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1024,53 +1004,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#join-session-api" class="md-nav__link">
-    Join Session API
-  </a>
-  
-    <nav class="md-nav" aria-label="Join Session API">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#return-parameters-from-the-api" class="md-nav__link">
-    Return Parameters From the API
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#join-session-flowchart" class="md-nav__link">
-    Join Session Flowchart
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1120,9 +1053,29 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../agoraSignalingHandling/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Agora Signling
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1131,6 +1084,107 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#initializing-signaling" class="md-nav__link">
+    Initializing Signaling
+  </a>
+  
+    <nav class="md-nav" aria-label="Initializing Signaling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rtm-connection-state-events" class="md-nav__link">
+    RTM Connection State Events
+  </a>
+  
+    <nav class="md-nav" aria-label="RTM Connection State Events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aborted-state-handling" class="md-nav__link">
+    Aborted State Handling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#handling-recived-messages-onchat-function" class="md-nav__link">
+    Handling Recived Messages: onChat Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#handling-recived-actions-onactions-function" class="md-nav__link">
+    Handling Recived Actions: onActions Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sending-action-sendaction-function" class="md-nav__link">
+    Sending Action: sendAction function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disabling-chat-functionality" class="md-nav__link">
+    Disabling Chat Functionality
+  </a>
+  
+    <nav class="md-nav" aria-label="Disabling Chat Functionality">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chat-status-handler" class="md-nav__link">
+    Chat Status Handler
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#closing-rtm-channel" class="md-nav__link">
+    Closing RTM Channel
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1292,16 +1346,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#join-session-api" class="md-nav__link">
-    Join Session API
+  <a href="#initializing-signaling" class="md-nav__link">
+    Initializing Signaling
   </a>
   
-    <nav class="md-nav" aria-label="Join Session API">
+    <nav class="md-nav" aria-label="Initializing Signaling">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#return-parameters-from-the-api" class="md-nav__link">
-    Return Parameters From the API
+  <a href="#rtm-connection-state-events" class="md-nav__link">
+    RTM Connection State Events
+  </a>
+  
+    <nav class="md-nav" aria-label="RTM Connection State Events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aborted-state-handling" class="md-nav__link">
+    Aborted State Handling
   </a>
   
 </li>
@@ -1310,11 +1372,57 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#join-session-flowchart" class="md-nav__link">
-    Join Session Flowchart
+        
+          <li class="md-nav__item">
+  <a href="#handling-recived-messages-onchat-function" class="md-nav__link">
+    Handling Recived Messages: onChat Function
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#handling-recived-actions-onactions-function" class="md-nav__link">
+    Handling Recived Actions: onActions Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sending-action-sendaction-function" class="md-nav__link">
+    Sending Action: sendAction function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disabling-chat-functionality" class="md-nav__link">
+    Disabling Chat Functionality
+  </a>
+  
+    <nav class="md-nav" aria-label="Disabling Chat Functionality">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chat-status-handler" class="md-nav__link">
+    Chat Status Handler
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#closing-rtm-channel" class="md-nav__link">
+    Closing RTM Channel
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1333,7 +1441,7 @@
                   
 
   
-    <a href="https://github.com/khaled-ahmed-nagwa/testingmkdoc/edit/main/docs/nagwa_sessions/session/session_technical/joinSession.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/khaled-ahmed-nagwa/testingmkdoc/edit/main/docs/nagwa_sessions/session/session_technical/agoraSignalingHandling.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -1341,137 +1449,188 @@
   
 
 
-<h1 id="session-joining">Session Joining</h1>
-<p>If anything happens that causes the educator to exit the session, even if they accidentally close the app, they can see the list of session cards when they open the app again. The card will have a <strong>Continue</strong> button. Once they click the button, we will call the <code>sessions/join</code> API to retrieve the required data needed to rejoin the running session.</p>
-<div class="admonition note">
-<p class="admonition-title">The join session button is only available if the session is already started and still running.</p>
-</div>
-<div class="admonition tip">
-<p class="admonition-title">The session will not be completely ended and students will still be able to join unless: The educator presses the end session button OR The session reached its end date.</p>
-</div>
-<h3 id="join-session-api">Join Session API</h3>
-<div style="text-align: center;">
-    <table width="100%" style="max-width: 600px; margin: 0 auto; border-collapse: collapse;">
-        <tr>
-            <th style="text-align: left; padding: 10px;">Joining Session API</th>
-            <td style="text-align: left; padding: 10px;"></td>
-        </tr>
-        <tr>
-            <th style="text-align: left; padding: 10px;">API Endpoint</th>
-            <td style="text-align: left; padding: 10px;">sessions/join</td>
-        </tr>
-        <tr>
-            <th style="text-align: left; padding: 10px;">API Query Parameters</th>
-            <td style="text-align: left; padding: 10px;">clientType</td>
-        </tr>
-        <tr>
-            <th style="text-align: left; padding: 10px;">HTTP Method</th>
-            <td style="text-align: left; padding: 10px;">POST</td>
-        </tr>
-        <tr>
-            <th style="text-align: left; padding: 10px;">API Required Data</th>
-            <td style="text-align: left; padding: 10px;">
-                <ul>
-                    <li>userId</li>
-                    <li>sessionId</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <th style="text-align: left; padding: 10px;">API Headers</th>
-            <td style="text-align: left; padding: 10px;">api-version: 7</td>
-        </tr>
-        <tr>
-            <th style="text-align: left; padding: 10px;">API Response</th>
-            <td style="text-align: left; padding: 10px;">
-                <ul>
-                    <li>actualStartDate</li>
-                    <li>rtcToken</li>
-                    <li>rtmToken</li>
-                    <li>sessionId</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-</div>
-
-<h4 id="return-parameters-from-the-api">Return Parameters From the API</h4>
+<h1 id="agora-singling-handling-rtm">Agora Singling Handling (RTM)</h1>
+<p>Before starting the initialization process, we need to first set the credentials required, For this, we use the “setSessionCredential” function, which is responsible for setting the session credential , the user , the session and the channel name for the chat and the actions channel</p>
+<div class="language-dart highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">channelChatName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;ChatChannel:</span><span class="si">${</span><span class="n">currentSessionCredential</span><span class="p">.</span><span class="n">sessionId</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">channelActionsName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;ActionsChannel:</span><span class="si">${</span><span class="n">currentSessionCredential</span><span class="p">.</span><span class="n">sessionId</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span>
+</span></code></pre></div>
+<h2 id="initializing-signaling">Initializing Signaling</h2>
+<p>The <code>initRTM</code> method is responsible for initializing the Agora RTM client and logging in to it by first</p>
+<ul>
+<li>Creating an instance of the Agora RTM client using the provided App ID.</li>
+<li>Logs in the client using the RTM token and user ID from the current session credentials.</li>
+<li>Create <code>onMessageReceived</code> callback that will be called when a message is received from the RTM client .</li>
+<li>Create an <code>onConnectionStateChanged2</code> callback that will be called when the connection state <code>RtmConnectionState</code> Event changes.</li>
+<li>Finally, a call to the <code>_createRtmChannel</code>  method to create the chat channel and the actions channel</li>
+</ul>
+<details class="abstract">
+<summary>Initializing Agora Singling (RTM) Flowchart</summary>
+<p><iframe frameborder="0" style="width:100%;height:1296px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G12MHC7pqK8A4KRFD_TyCEbic-XgL8Khvg"></iframe></p>
+</details>
+<h3 id="rtm-connection-state-events">RTM Connection State Events</h3>
 <table style="border-collapse: collapse; width: 100%; margin: 0 auto;">
     <tr>
-        <th style="text-align: left; padding: 10px;">Return Parameter</th>
-        <th style="text-align: left; padding: 10px;">Data Type</th>
+        <th style="text-align: left; padding: 10px;">State</th>
         <th style="text-align: left; padding: 10px;">Description</th>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;">rtcToken</td>
-        <td style="text-align: left; padding: 10px;">String</td>
-        <td style="text-align: left; padding: 10px;">Web RTC token, only populated if the WebRTC session provider is ‘Agora’</td>
+        <td style="text-align: left; padding: 10px;">Aborted</td>
+        <td style="text-align: left; padding: 10px;">This means that the device is used in another session and will emit SignalingChanged(SignalingActionsdeviceUsed).
+        Our response to this situation is to inform the educator that their session is open on another device. Then, we will remove them from the first session and let them stay only in the last session they opened on their current device.</td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;">actualStartDate</td>
-        <td style="text-align: left; padding: 10px;">Long</td>
-        <td style="text-align: left; padding: 10px;">Time when the educator started the session in Unix time</td>
+        <td style="text-align: left; padding: 10px;">Disconnected or Reconnecting</td>
+        <td style="text-align: left; padding: 10px;">This means that the connection is lost and will emit SignalingConnectionFailure(). It will show a toast with the message that the connection is lost, and the user can't send messages or actions.</td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;">rtmToken</td>
-        <td style="text-align: left; padding: 10px;">String</td>
-        <td style="text-align: left; padding: 10px;">Web RTM token, for supporting chat during sessions</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;">sessionId</td>
-        <td style="text-align: left; padding: 10px;">Number</td>
-        <td style="text-align: left; padding: 10px;">ID of the session</td>
+        <td style="text-align: left; padding: 10px;">Connected</td>
+        <td style="text-align: left; padding: 10px;">This means that the connection is restored and will emit SignalingConnectionRestored(). It will show a toast with the message that the connection is restored, and the user can send messages or actions.</td>
     </tr>
 </table>
 
-<h2 id="join-session-flowchart">Join Session Flowchart</h2>
-<details class="abstract">
-<summary>Joining Session Flowchart</summary>
-<p><iframe frameborder="0" style="width:100%;height:914px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1etG9uI7bzIWvvCVfrMJ0heo-5MdPmujl"></iframe></p>
-</details>
-<table style="border-collapse: collapse; width: 100%; margin: 0 auto;">
-    <tr>
-        <th style="text-align: left; padding: 10px;">Function Name</th>
-        <td style="text-align: left; padding: 10px;">joinSession</td>
-    </tr>
-    <tr>
-        <th style="text-align: left; padding: 10px;">Function Required Parameters</th>
-        <td style="text-align: left; padding: 10px;">
-            <ul>
-                <li>userId: Number (ID of the user who wants to join the session)</li>
-                <li>sessionId: Number (ID of the session)</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <th style="text-align: left; padding: 10px;">Function Return Parameters</th>
-        <td style="text-align: left; padding: 10px;">
-            <ul>
-                <li>startedSessionDuration</li>
-                <li>rtcToken</li>
-                <li>rtmToken</li>
-                <li>sessionId</li>
-            </ul>
-        </td>
-    </tr>
-</table>
-
-<hr />
 <details class="info">
-<summary><code>joinSession</code> Function Path</summary>
-<p>The <code>joinSession</code> function is located at the <a href="https://dev.azure.com/nagwa-limited/_git/Nagwa%20Sessions%20For%20Educators?path=/lib/features/sessions/data/data_sources/sessions/sessions_remote_data_source_impl.dart&amp;version=GBmaster"><code>lib/features/sessions/data/data_sources/sessions/sessions_remote_data_source_impl.dart</code></a> path.</p>
+<summary> <code>initRTM</code> Function Path</summary>
+<p>The <code>initRTM</code> function is located at the <a href="https://dev.azure.com/nagwa-limited/_git/Nagwa%20Sessions%20For%20Educators?path=/lib/features/sessions/presentation/logic/signaling/signaling_cubit.dart&amp;version=GBmaster"><code>lib/features/sessions/presentation/logic/signaling/signaling_cubit.dart</code></a> path.</p>
 </details>
+<h4 id="aborted-state-handling">Aborted State Handling</h4>
+<details class="failure">
+<summary>The user Has Another open Account (RtmConnectionState.aborted)</summary>
+<p><iframe frameborder="0" style="width:100%;height:482px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1Hii4C46QpKQ17_1LBUv9jKYV615zy-SI"></iframe></p>
+</details>
+<h3 id="handling-recived-messages-onchat-function">Handling Recived Messages: <code>onChat</code> Function</h3>
+<p>After creating the RTM chat channal,now we need to listen for new members joining the channel and handles any recived text messages; For that we use the <code>onChat</code> Funciton which listens for <code>onMessageReceived</code> event which occurs when receiving a channel message.</p>
+<p>Every time a message is recived we handle it by calling <code>handleReceivedMessage</code></p>
+<ol>
+<li>It creates an instance of the MessageModel [<code>fullName</code>, <code>message</code>, <code>isFirstMessage</code> ] from the message object.</li>
+<li>Checks if the message is the first message in the chat or not by checking if the message list is empty or the full name of the message is not equal to the first message's full name.</li>
+<li>Then it inserts the message into the first index of the messages list and emits <code>MessageReceived()</code> event to notify the UI that a new message has been received.</li>
+</ol>
+<details class="example">
+<summary>handleReceivedMessage Function</summary>
+<div class="language-dart highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span>
+<span class="normal"><a href="#__codelineno-1-4">4</a></span>
+<span class="normal"><a href="#__codelineno-1-5">5</a></span>
+<span class="normal"><a href="#__codelineno-1-6">6</a></span>
+<span class="normal"><a href="#__codelineno-1-7">7</a></span>
+<span class="normal"><a href="#__codelineno-1-8">8</a></span>
+<span class="normal"><a href="#__codelineno-1-9">9</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kt">void</span><span class="w"> </span><span class="n">handleReceivedMessage</span><span class="p">(</span><span class="n">Map</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span><span class="w"> </span><span class="kt">dynamic</span><span class="o">&gt;</span><span class="w"> </span><span class="n">messageObj</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="kd">final</span><span class="w"> </span><span class="n">messageModel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MessageModel</span><span class="p">.</span><span class="n">fromJson</span><span class="p">(</span><span class="n">messageObj</span><span class="p">);</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="kd">final</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">isFirst</span><span class="w"> </span><span class="o">=</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="w">    </span><span class="n">messages</span><span class="p">.</span><span class="n">isEmpty</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">messageModel</span><span class="p">.</span><span class="n">fullName</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">messages</span><span class="p">.</span><span class="n">first</span><span class="p">.</span><span class="n">fullName</span><span class="p">;</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="n">messageModel</span><span class="p">.</span><span class="n">isFirstMessage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">isFirst</span><span class="p">;</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="n">messages</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">messageModel</span><span class="p">);</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="n">isAllMessagesRead</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="n">emit</span><span class="p">(</span><span class="n">MessageReceived</span><span class="p">());</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+</details>
+<h3 id="handling-recived-actions-onactions-function">Handling Recived Actions: <code>onActions</code> Function</h3>
+<p>After creating the RTM action channal, now we need to join the channel and listen to the incoming messages on it , For that we use the <code>onAction</code> function which joins a channel and listens for incoming messages [<code>onMessageReceived</code> event], then calls a function to handle the received actions.</p>
+<div class="admonition tip">
+<p class="admonition-title"> <a href="../../../pre_knowledge_required/agoraDetails/#agora-actions-numbers">Actions list (Numbers &amp; Describtion)</a></p>
+</div>
+<p>Every time a message is recived we handle it by calling <code>handleReceivedActions</code> function.</p>
+<ol>
+<li>This function takes a map of strings and dynamic as an argument, then creates an <code>ActionModel</code> object that containes [<code>signalingAction</code>, <code>userId</code>, <code>username</code>] from the map. then it checks the type of action and performs certain actions based on the result</li>
+<li>If the action is a reset action, the function <code>reset()</code> is called to reset the signaling.</li>
+<li>If it's raiseHand, it will emit <code>signalinguserRaiseHandStatusChanged</code> with the <code>studentId</code> and <code>isHandRaised</code> = true</li>
+<li>Otherwise, it will emit <code>SignalingChanged(actionModel.signalingAction)</code></li>
+</ol>
+<details class="example">
+<summary>handleRecivedActions Function</summary>
+<div class="language-dart highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-2-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-2-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-2-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-2-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-2-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-2-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-2-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-2-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-2-10">10</a></span>
+<span class="normal"><a href="#__codelineno-2-11">11</a></span>
+<span class="normal"><a href="#__codelineno-2-12">12</a></span>
+<span class="normal"><a href="#__codelineno-2-13">13</a></span>
+<span class="normal"><a href="#__codelineno-2-14">14</a></span>
+<span class="normal"><a href="#__codelineno-2-15">15</a></span>
+<span class="normal"><a href="#__codelineno-2-16">16</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="kt">void</span><span class="w"> </span><span class="n">handleReceivedActions</span><span class="p">(</span><span class="n">Map</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span><span class="w"> </span><span class="kt">dynamic</span><span class="o">&gt;</span><span class="w"> </span><span class="n">actionObj</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="kd">final</span><span class="w"> </span><span class="n">actionModel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ActionModel</span><span class="p">.</span><span class="n">fromJson</span><span class="p">(</span><span class="n">actionObj</span><span class="p">);</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">actionModel</span><span class="p">.</span><span class="n">signalingAction</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">SignalingActions</span><span class="p">.</span><span class="n">reset</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="w">  </span><span class="n">emit</span><span class="p">(</span><span class="n">SignalingReset</span><span class="p">(</span><span class="nl">studentId:</span><span class="w"> </span><span class="kt">int</span><span class="p">.</span><span class="n">parse</span><span class="p">(</span><span class="n">actionModel</span><span class="p">.</span><span class="n">userId</span><span class="p">)));</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">actionModel</span><span class="p">.</span><span class="n">signalingAction</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">SignalingActions</span><span class="p">.</span><span class="n">raiseHand</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="w">  </span><span class="n">emit</span><span class="p">(</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="w">    </span><span class="n">SignalingUserRaiseHandStatusChanged</span><span class="p">(</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="w">      </span><span class="nl">studentId:</span><span class="w"> </span><span class="kt">int</span><span class="p">.</span><span class="n">parse</span><span class="p">(</span><span class="n">actionModel</span><span class="p">.</span><span class="n">userId</span><span class="p">),</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9"></a><span class="w">      </span><span class="nl">isHandRaised:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10"></a><span class="w">    </span><span class="p">),</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11"></a><span class="w">  </span><span class="p">);</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12"></a><span class="p">}</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">actionModel</span><span class="p">.</span><span class="n">signalingAction</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">SignalingActions</span><span class="p">.</span><span class="n">reset</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14"></a><span class="w">  </span><span class="n">emit</span><span class="p">(</span><span class="n">SignalingChanged</span><span class="p">(</span><span class="n">actionModel</span><span class="p">.</span><span class="n">signalingAction</span><span class="p">));</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15"></a><span class="p">}</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16"></a><span class="p">}</span><span class="w"> </span>
+</span></code></pre></div></td></tr></table></div>
+</details>
+<p>In additon to the previous uses of the function , <code>onActions</code> also listen for any changes in members state (<code>onMemberJoined</code> event), and emit <code>SignalingUserOnlineStatusChanged</code> with the online status and student ID.</p>
+<h3 id="sending-action-sendaction-function">Sending Action: <code>sendAction</code> function</h3>
+<p>To facilitate the sending of actions we use the <code>sendAction</code> function to send an action to the RTM channel
+1. Creates an action object, which contains the following:
+   1. Text that represents the action type.
+   2. user ID
+   3. message type
+   4. timestamp
+   5. offline status
+2. Call the <code>sendMessage2()</code> function on the RTM channel object with the action object as an argument the message object is as follows
+    <div class="language-dart highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
+<span class="normal"><a href="#__codelineno-3-2">2</a></span>
+<span class="normal"><a href="#__codelineno-3-3">3</a></span>
+<span class="normal"><a href="#__codelineno-3-4">4</a></span>
+<span class="normal"><a href="#__codelineno-3-5">5</a></span>
+<span class="normal"><a href="#__codelineno-3-6">6</a></span>
+<span class="normal"><a href="#__codelineno-3-7">7</a></span>
+<span class="normal"><a href="#__codelineno-3-8">8</a></span>
+<span class="normal"><a href="#__codelineno-3-9">9</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="n">messageObj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="w">  </span><span class="s2">&quot;text&quot;</span><span class="o">:</span><span class="w"> </span><span class="n">jsonEncode</span><span class="p">({</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="w">    </span><span class="s2">&quot;a&quot;</span><span class="o">:</span><span class="w"> </span><span class="n">signalingAction</span><span class="p">.</span><span class="n">type</span><span class="p">,</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">    </span><span class="s2">&quot;si&quot;</span><span class="o">:</span><span class="w"> </span><span class="n">studentId</span><span class="o">?</span><span class="p">.</span><span class="n">toString</span><span class="p">()</span><span class="w"> </span><span class="o">??</span><span class="w"> </span><span class="n">user</span><span class="p">.</span><span class="n">userID</span><span class="p">.</span><span class="n">toString</span><span class="p">(),</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">  </span><span class="p">}),</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="w">  </span><span class="s2">&quot;messageType&quot;</span><span class="o">:</span><span class="w"> </span><span class="m">1</span><span class="p">,</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7"></a><span class="w">  </span><span class="s2">&quot;ts&quot;</span><span class="o">:</span><span class="w"> </span><span class="m">0</span><span class="p">,</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="w">  </span><span class="s2">&quot;offline&quot;</span><span class="o">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="p">};</span>
+</span></code></pre></div></td></tr></table></div></p>
+<h3 id="disabling-chat-functionality">Disabling Chat Functionality</h3>
+<p>As you know that the eductor has the authority to disable chat functionality , to handles this we call the <code>updateChatStatus</code> function which runs <code>NagwaRenderingEngine.updateChatStatus($isEnabled)</code>  function in the webview which enables or disables the chat and emits the <code>DrawingRefresh</code></p>
+<div class="admonition note">
+<p class="admonition-title">Use the <code>updateChatStatus</code> function if you want to update the chat status and enable or disable it. By calling this function false, you can disable the chat feature, and with true, you can enable it again.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">In case the educator has internet connection issues, the chat functionality will be disabled.</p>
+</div>
+<details class="abstract">
+<summary>Enable &amp; Disable Button Screenshot</summary>
+<p><iframe frameborder="0" style="width:100%;height:527px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1nO62RfRG--q7V76PijiawiazlNXo4SQm"></iframe></p>
+</details>
+<h4 id="chat-status-handler">Chat Status Handler</h4>
+<p>The HTML rendering engine sends an <code>chatStatusUpdated</code> event when the chat status is updated (enabled / disabled). So we use the <code>chatstatusHandler</code> function which is a javascript callback which checks if the chat is enabled or not and change the isChatEnabled value, the </p>
+<h3 id="closing-rtm-channel">Closing RTM Channel</h3>
+<p>Upon finishing the session or exiting from it, a function is called to logout the eductor from all channels joined. The <code>close()</code> function is responsible for releasing resources and logging out the user from the chat and action channels
+- First, it leaves the chat channel, then releases it
+- then it leaves the action channel, then releases it
+- then it logout from the RTM client, then releases  </p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-09-17T15:50:31+03:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-09-17</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-09-18T14:39:34+03:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-09-18</span>
       
         <br>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-09-17T15:50:31+03:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-09-17</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-09-18T09:35:48+03:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-09-18</span>
       
     
   </small>
@@ -1503,7 +1662,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../startingSession/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Starting Session" rel="prev">
+          <a href="../endSession/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Ending Session" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1513,20 +1672,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Starting Session
+                Ending Session
               </div>
             </div>
           </a>
         
         
           
-          <a href="../cancelSession/" class="md-footer__link md-footer__link--next" aria-label="Next: Canceling Session" rel="next">
+          <a href="../agoraRTCHandling/" class="md-footer__link md-footer__link--next" aria-label="Next: Agora RTC" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Canceling Session
+                Agora RTC
               </div>
             </div>
             <div class="md-footer__button md-icon">
