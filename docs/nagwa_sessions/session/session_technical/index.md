@@ -1,1 +1,2 @@
-# Session Technical Components 
+# Session Feature Technical Components 
+
