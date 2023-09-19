@@ -1,4 +1,4 @@
-# Nagwa Session (For Eductors) 👨🏻‍🏫
+# Nagwa Session (For Educators) 👨🏻‍🏫
 
 ## Project Overview
 
@@ -10,14 +10,14 @@ Our main goal is to change education for the better through a new educational pl
 
 ## Target Audience
 
-The Nagwa Sessions app is specifically tailored to be used by educators who will deliver online live sessions with class students via the Nagwa Classes mobile app.
+The Nagwa Sessions app is specifically tailored to be used by educators who will deliver live online sessions with class students via the Nagwa Classes mobile app.
 
 ## Tools Used
 
-* Dart & Flutter
+* Dart and Flutter
 * Firebase
 * Agora for voice and chat messages
-* Different packages that support bloc pattern, local storage, responsive UI, localization, chat, connection status, forms validation, etc.
+* Different packages that support bloc pattern, local storage, responsive UI, localization, chat, connection status, form validation, etc.
 
 
  

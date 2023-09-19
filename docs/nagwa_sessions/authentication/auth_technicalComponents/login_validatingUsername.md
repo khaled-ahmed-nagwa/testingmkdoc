@@ -2,7 +2,7 @@
 
 ## Process Overview
 
-After logging into the application, the user will be routed to the username (email) input screen. This screen is the first screen that the user sees when they open the app for the first time or after logging out. The page asks the user to enter their username, after clicking the `Continue` button, it will check the validity of the entered username.
+After logging into the application, the user will be routed to the username (email) input screen. This is the first screen that the user sees when they open the app for the first time or after logging out. The page asks the user to enter their username, and after clicking the `Continue` button, it will check the validity of the entered username.
 
 - If the entered username is not registered to the app, an error message will be displayed informing the user that the email is not registered on the portal.
 - If a student username was entered, an error message will be shown indicating that this account is not authorized to access the app.
@@ -137,7 +137,7 @@ After logging into the application, the user will be routed to the username (ema
 </table>
 
 !!! example "Allowed Roles to Access The Application"
-    You may have noticed that the username verification API returns a 'roles' list. This list contains the roles associated with the username within the portal. Currently, the allowed roles are limited to ```'teacher', 'tutor', 'assistant' ``` Any other role will not grant access to continue logging into the application.
+    You may have noticed that the username verification API returns a 'roles' list. This list contains the roles associated with the username within the portal. Currently, the allowed roles are limited to ```' teacher', 'tutor', and 'assistant' ``` Any other role will not grant access to continue logging into the application.
 
 
 ## Login Screenshots

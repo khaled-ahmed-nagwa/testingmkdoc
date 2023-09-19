@@ -1,4 +1,4 @@
-# Nagwa Sessions - Key Features
+# Nagwa Sessions: Key Features
 
 ## Diagram
 
@@ -12,12 +12,12 @@
 
 ### Login
 
-- Educators can log in easily using the email and password.
+- Educators can log in easily using their email and password.
 - When educators try to log in for the first time after receiving the email from the portal admin, they will be prompted to set a password. This password will become their permanent account password.
 
 ### Reset Password
 
-- If an educator forgets their password, they can only reset it by contacting the portal admin, who will assist in resetting the password for them.
+- If an educator forgets their password, they can only reset it by contacting the portal administrator, who will assist in resetting the password for them.
 
 ----------------------------------
 
@@ -93,4 +93,4 @@ The Educator can register multiple accounts in the app, and switch between them 
 ----------------------------------
 ## Time Reminder
 
-Educators can view a timer that displays the session duration, indicating the time since the session started. As the session approaches its end (last hour), the timer turns into a red  timer, and starts indicating the remaining time.
+Educators can view a timer that displays the session duration, indicating the time since the session started. As the session approaches its end (last hour), the timer turns into a red timer and starts indicating the remaining time.
