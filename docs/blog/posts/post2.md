@@ -2,7 +2,7 @@
 draft: false     
 date: 2023-09-10
 categories:
-  - Proposal
+  - Testing Mkdocs
 authors:
     - Khaled Abdelfattah
 comments: true
