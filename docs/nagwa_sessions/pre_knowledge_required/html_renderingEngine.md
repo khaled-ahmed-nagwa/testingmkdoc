@@ -82,7 +82,7 @@ The HTML rendering engine is built using:
         </tr>
 
         <tr>
-            <td><code>NagwaRenderingEngine.updateCurrentQuestionAskingStatus('value');</code></td>
+            <td>NagwaRenderingEngine.updateCurrentQuestionAskingStatus('value');</td>
             <td>Use this function if you want to update the current question status to be whether Initial,
                 In_Progress, or Time_Is_Up.</td>
         </tr>
