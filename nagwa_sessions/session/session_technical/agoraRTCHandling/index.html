@@ -12,11 +12,11 @@
         <link rel="prev" href="../agoraSignalingHandling/">
       
       
-        <link rel="next" href="../../../../sabboura/">
+        <link rel="next" href="../questionHandling/">
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.3.1">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.3.1">
     
     
       
@@ -891,6 +891,8 @@
       
         
       
+        
+      
     
     
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
@@ -1197,6 +1199,26 @@
 
               
             
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../questionHandling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Questions Handling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1483,7 +1505,7 @@
 </li>
 <li><code>token</code>: The token generated on our server for authentication.
    2.<code>channelId</code>: The channel name. This parameter signifies the channel in which users engage in real-time audio and video interaction</li>
-<li><code>options</code>: The channel media options which containe many parameters , one of them is the clinet role type</li>
+<li><code>options</code>: The channel media options which containe many parameters , one of them is the client role type</li>
 <li><code>UID</code>:The user ID. This parameter is used to identify the user in the channel for real-time audio and video interaction</li>
 <li>Enable the local audio and the local audio stream is muted or unmuted depending on the microphone status of the user. </li>
 </ul>
@@ -1497,8 +1519,12 @@
 </details>
 <h2 id="leaving-the-channel">Leaving the Channel</h2>
 <ul>
-<li>The <code>leave</code> method serves the purpose of enabling an educator to exit the channel and free up the resources used by the Agora engine. When an educator decides to leave the channel, this process is initiated by invoking the <code>leaveChannel</code> method of the Agora engine, which ensures the user's disconnection from the session. </li>
-<li>Additionally, the <code>release</code> method of the Agora engine is called to properly release all resources associated with the engine. After a successful method call, we can no longer use any method or callback in the SDK anymore. If we want to use the real-time communication functions again, you must call createAgoraRtcEngine and initialize to create a new RtcEngine instance</li>
+<li>
+<p>The <code>leave</code> method serves the purpose of enabling an educator to exit the channel and free up the resources used by the Agora engine. When an educator decides to leave the channel, this process is initiated by invoking the <code>leaveChannel</code> method of the Agora engine, which ensures the user's disconnection from the session. </p>
+</li>
+<li>
+<p>Additionally, the <code>release</code> method of the Agora engine is called to properly release all resources associated with the engine. After a successful method call, we can no longer use any method or callback in the SDK anymore. If we want to use the real-time communication functions again, you must call createAgoraRtcEngine and initialize to create a new RtcEngine instance</p>
+</li>
 </ul>
 <div class="admonition tip">
 <p class="admonition-title">When we call <code>release</code> immediately after calling <code>leave</code>, the SDK does not trigger the onLeaveChannel callback.</p>
@@ -1520,7 +1546,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-09-18T14:39:34+03:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-09-18</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-09-19T08:15:29+03:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-09-19</span>
       
         <br>
         Created:
@@ -1573,13 +1599,13 @@
         
         
           
-          <a href="../../../../sabboura/" class="md-footer__link md-footer__link--next" aria-label="Next: Sabboura" rel="next">
+          <a href="../questionHandling/" class="md-footer__link md-footer__link--next" aria-label="Next: Questions Handling" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Sabboura
+                Questions Handling
               </div>
             </div>
             <div class="md-footer__button md-icon">

@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.3.1">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.3.1">
     
     
       
@@ -1078,6 +1078,8 @@
       
         
       
+        
+      
     
     
       
@@ -1282,18 +1284,18 @@
 <h1 id="saving-user-data-locally">Saving User Data Locally</h1>
 <h2 id="process-steps">Process Steps</h2>
 <p>To save the user information to local storage, we are using <code>Hive</code> to store the information locally.</p>
-<div class="language-text highlight"><pre><span></span><code>1. we first use the `getSavedUsers` function to retrive the stored users locally
+<div class="language-text highlight"><pre><span></span><code>1. we first use the `getSavedUsers` function to retrieve the stored users locally
 2. Call the `verifyUsername` function from the remote data source to get the list of users that have the same username and password
 3. Add the users from the API response to the users from the local data source, then remove the duplicates from the list of users
 4. Check the index of the user that should be the first user in the list and if it is not the first user, we remove it from the list and add it to the first index
 5. Save the list of users in the local data source
 </code></pre></div>
 <h2 id="getsaveduser">GetSavedUser</h2>
-<p>The <code>getSavedUsers</code> is used to get the saved users from the local database and return it as a list of UserEntity objects, it uses Hive to open the box and get the users objects from it, then it converts the users object to a list of UserEntity objects. and returns it.</p>
+<p>The <code>getSavedUsers</code> is used to get the saved users from the local database and return it as a list of UserEntity objects, It uses Hive to open the box and get the user objects from it, and then it converts the user object to a list of UserEntity objects. and returns it.</p>
 <h2 id="saveusers">SaveUsers</h2>
-<p>The <code>saveUsers</code> is used to save the users in the local database, it uses Hive to open the box and save the users object in it. it converts the user's object to a list of JSON objects and saves it in the box. and returns true if the process is done successfully. </p>
+<p>The <code>saveUsers</code> is used to save the users in the local database, it uses Hive to open the box and save the user object in it. It converts the user's object to a list of JSON objects saves it in the box. and returns true if the process is done successfully. </p>
 <div class="admonition note">
-<p class="admonition-title">More information are coming in the next section regarding how we store and retrive users data locally</p>
+<p class="admonition-title">More information is coming in the next section regarding how we store and retrieve user's data locally.</p>
 </div>
 
   <hr>
@@ -1301,7 +1303,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-09-17T01:05:04+03:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-09-17</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-09-18T22:57:39+03:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-09-18</span>
       
         <br>
         Created:
