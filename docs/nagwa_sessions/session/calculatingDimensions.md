@@ -113,7 +113,7 @@ This method efficiently calculates and provides dimensions for various component
 ---------------
 ## Code Implementation
 
-??? tip "Dimensions Calculations Code"
+??? quote "Dimensions Calculations Code"
 
     ```java 
     import 'dart:math';

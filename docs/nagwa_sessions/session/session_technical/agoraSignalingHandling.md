@@ -60,7 +60,7 @@ Every time a message is recived we handle it by calling `handleReceivedMessage`
 2. Checks if the message is the first message in the chat or not by checking if the message list is empty or the full name of the message is not equal to the first message's full name.
 3. Then it inserts the message into the first index of the messages list and emits `MessageReceived()` event to notify the UI that a new message has been received.
 
-??? example "handleReceivedMessage Function"
+??? quote "handleReceivedMessage Function"
     ```dart linenums="1"
     void handleReceivedMessage(Map<String, dynamic> messageObj) {
     final messageModel = MessageModel.fromJson(messageObj);
@@ -87,7 +87,7 @@ Every time a message is recived we handle it by calling `handleReceivedActions` 
    3.  Otherwise, it will emit `SignalingChanged(actionModel.signalingAction)`
 
 
-??? example "handleRecivedActions Function"
+??? quote "handleRecivedActions Function"
     ```dart linenums="1"
     void handleReceivedActions(Map<String, dynamic> actionObj) {
     final actionModel = ActionModel.fromJson(actionObj);

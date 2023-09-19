@@ -139,7 +139,7 @@ After ensuring the existence & authentication of the username in the [previous s
 </table>
 
 ??? note "`verifyUsername` Function Path"
-      the `verifyUsername` is located at the [`lib/features/authentication/data/remote/data_sources/authentication_remote_data_source_impl.dart`](https://dev.azure.com/nagwa-limited/_git/Nagwa%20Sessions%20For%20Educators?path=/lib/features/authentication/data/remote/data_sources/authentication_remote_data_source_impl.dart#:~:text=data_sources-,authentication_remote_data_source_impl.dart,-authentication_remote_data_source.dart) path.
+      The `verifyUsername` is located at the [`lib/features/authentication/data/remote/data_sources/authentication_remote_data_source_impl.dart`](https://dev.azure.com/nagwa-limited/_git/Nagwa%20Sessions%20For%20Educators?path=/lib/features/authentication/data/remote/data_sources/authentication_remote_data_source_impl.dart#:~:text=data_sources-,authentication_remote_data_source_impl.dart,-authentication_remote_data_source.dart) path.
 
 You can notice that inside the `verifyUsername` function, a call to the `_getUserPortalInfo` function is made to retrieve the full list of the user portal information.
  

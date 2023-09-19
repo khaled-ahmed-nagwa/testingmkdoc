@@ -66,7 +66,7 @@ After setting up the voice SDK, our next step is to join the RTC channal and set
 3. Call to join the channel is made with
    1. `token`: The token generated on our server for authentication.
    2.`channelId`: The channel name. This parameter signifies the channel in which users engage in real-time audio and video interaction
-   2. `options`: The channel media options which containe many parameters , one of them is the clinet role type
+   2. `options`: The channel media options which containe many parameters , one of them is the client role type
    3. `UID`:The user ID. This parameter is used to identify the user in the channel for real-time audio and video interaction
 4. Enable the local audio and the local audio stream is muted or unmuted depending on the microphone status of the user. 
 
@@ -79,12 +79,15 @@ After setting up the voice SDK, our next step is to join the RTC channal and set
 ## Leaving the Channel
 
 - The `leave` method serves the purpose of enabling an educator to exit the channel and free up the resources used by the Agora engine. When an educator decides to leave the channel, this process is initiated by invoking the `leaveChannel` method of the Agora engine, which ensures the user's disconnection from the session. 
+
+
 - Additionally, the `release` method of the Agora engine is called to properly release all resources associated with the engine. After a successful method call, we can no longer use any method or callback in the SDK anymore. If we want to use the real-time communication functions again, you must call createAgoraRtcEngine and initialize to create a new RtcEngine instance
 
 !!! tip "When we call `release` immediately after calling `leave`, the SDK does not trigger the onLeaveChannel callback."
 
 
 ## Switch Microphone State
+
 The `switchMicrophone` function is used to switch the microphone status from muted to unmuted and vice versa.
 
 - It first checks if the user is joined to the channel or not 
