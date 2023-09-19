@@ -5,7 +5,7 @@
     If you wish to access diagrams, you must verify your identity by logging in with your work email ending with '@nagwa.com' Once logged in, you will have access to view the diagrams.
 
 
-## Who Should Read This Documentation? 🤔
+## Who Should Read This Documentation? 
 
 This documentation provides a concise business and technical overview of several Nagwa products. It is designed for a diverse audience, including new developers joining the development team, top management executives, product business managers, and content technologies teams at Nagwa Technologies. Whether you're interested in the technical aspects or a business perspective, this document will provide valuable insights into how Nagwa is transforming education using Nagwa sessions.
 

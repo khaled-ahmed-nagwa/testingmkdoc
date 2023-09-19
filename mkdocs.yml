@@ -40,6 +40,7 @@ nav:
           - Ending Session: nagwa_sessions/session/session_technical/endSession.md
           - Agora Signling: nagwa_sessions/session/session_technical/agoraSignalingHandling.md
           - Agora RTC: nagwa_sessions/session/session_technical/agoraRTCHandling.md
+          - Questions Handling: nagwa_sessions/session/session_technical/questionHandling.md
   - Sabboura:
     - sabboura/index.md
      
