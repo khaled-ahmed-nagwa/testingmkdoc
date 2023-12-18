@@ -32,7 +32,6 @@ nav:
       - nagwa_sessions/session/index.md
       - Technical Components:
           - nagwa_sessions/session/session_technical/index.md
-          - Calculating Dimensions: nagwa_sessions/session/calculatingDimensions.md
           - Upcoming and Running Sessions List: nagwa_sessions/session/session_technical/sessionsList.md
           - Starting Session: nagwa_sessions/session/session_technical/startingSession.md
           - Joining Session: nagwa_sessions/session/session_technical/joinSession.md
@@ -41,6 +40,10 @@ nav:
           - Agora Signling: nagwa_sessions/session/session_technical/agoraSignalingHandling.md
           - Agora RTC: nagwa_sessions/session/session_technical/agoraRTCHandling.md
           - Questions Handling: nagwa_sessions/session/session_technical/questionHandling.md
+          - Drawing Handline: nagwa_sessions/session/session_technical/drawingHanding.md
+          - Calculating Dimensions: nagwa_sessions/session/calculatingDimensions.md
+
+
   - Sabboura:
     - sabboura/index.md
      
@@ -143,9 +146,7 @@ markdown_extensions:
 #Annotation Related Extensions
   - attr_list
   - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+ 
   - pymdownx.tabbed:
       alternate_style: true 
 # Code Highliting
@@ -179,15 +180,31 @@ plugins:
       locale: en
       fallback_to_build_date: false
       enable_creation_date: true
-      # For enabling image zooming    
-- glightbox
+
+
 
 copyright: Copyright &copy; 2023 - Nagwa Technologies
 extra:
   generator: false
-
+  analytics: 
+    provider: google
+    property: G-6ZZ13F16ZV  
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
 
 repo_url: https://github.com/khaled-ahmed-nagwa/testingmkdoc
-edit_uri: edit/main/docs/
+edit_uri: edit/dev/docs/
 repo_name: khaled-ahmed-nagwa/testingmkdoc

@@ -108,6 +108,26 @@ When the educator changes the question-answering status to be `Time_Is_Up`, a qu
     }
     ```
 
+??? quote "Output object if the question type is `separated` "
+    ```json linenums="1"
+    {
+    "currentScreen": "9",
+    "questionID": "363128187320",
+    "questionType": "separated",
+    "choices": [], // seperated questions don't have choices
+    "totalInteractions": 1,
+    "interactions": [
+        {
+            "answer": "43242",
+            "studentID": "111111111111",
+            "studnetName": "the educator"
+        }
+    ],
+    "correctAnswers": [], // always empty array (for now :D)
+    "currentStudentAnswer: "43242", // or null if the student didn't answer
+    "messageKey": "interactionUpdated"
+    }
+    ```
 
 
 ### Handling Insight data recived using the `getInsights` function?
