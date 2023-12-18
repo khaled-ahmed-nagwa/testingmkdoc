@@ -146,9 +146,7 @@ markdown_extensions:
 #Annotation Related Extensions
   - attr_list
   - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+ 
   - pymdownx.tabbed:
       alternate_style: true 
 # Code Highliting
@@ -188,7 +186,23 @@ plugins:
 copyright: Copyright &copy; 2023 - Nagwa Technologies
 extra:
   generator: false
-
+  analytics: 
+    provider: google
+    property: G-6ZZ13F16ZV  
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
 
 repo_url: https://github.com/khaled-ahmed-nagwa/testingmkdoc
